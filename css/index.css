@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+body, html {
+	background-color: hsl(228,11%,9%);
+	color: white;
+	line-height: 1.6em;
+	font-family: 'Mulish', sans-serif;
+	font-family: 'Red Hat Display', sans-serif;
+}
+
+main {
+	max-width: 1440px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	height: 100vh;
+}
+.wrapper-register {
+	display: block;
+}
+
+.wrapper {
+	max-width: 415px;
+	background: rgb(23,30,40);
+background: linear-gradient(0deg, rgba(23,30,40,1) 0%, rgba(32,39,49,1) 100%);
+	border-radius: 31px;
+	padding: 35px;
+}
+
+.circle-star {
+	background-color: hsl(210,19%,18%);
+	padding: 15px;
+	border-radius: 9999px;
+}
+
+.wrapper-rating {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 25px;
+	padding: 20px 0px;
+}
+
+label {
+	font-size: 16px;
+	color: rgba(255, 255, 255, 0.5);
+	background-color: hsl(210,19%,18%);
+  border-radius: 50%;
+  padding: 17px 22px;
+  font-weight: bold;
+  cursor: pointer;
+	margin-bottom: 30px;
+	transition: .2s ease-in-out;
+}
+
+.selected {
+	background-color: #7c8898;
+}
+
+.title {
+	font-size: 25.5px;
+	margin-top: 25px;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+.paragraph {
+	padding: 21px 0px;
+	margin-top: -5px;
+	font-size: 14.5px;
+	line-height: 1.6em;
+	color: rgba(255, 255, 255, 0.495);
+}
+
+label:hover {
+	background-color: hsl(25, 97%, 53%);
+	color: white;
+}
+
+.btn:hover {
+	background-color: white;
+	color: hsl(25, 97%, 53%);
+	cursor: pointer;
+}
+
+.btn {
+	background-color: hsl(25, 97%, 53%);
+	border: none;
+	width: 100%;
+	border-radius: 21.5px;
+	padding: 15px 5px;
+	font-size: 14px;
+	color: rgba(255, 255, 255, 0.799);
+	letter-spacing: 3px;
+	font-weight: bold;
+	transition: .2s ease-in-out;
+}
+
+/* Next */
+
+.thankyou {
+	text-align: center;
+	display: none;
+}
+
+.rating {
+	background-color: hsl(210,19%,18%);
+	padding: 8px 18px;
+	border-radius: 21.5px;
+	color: #be764c;
+	font-size: 14px;
+	margin-top: 30px;
+}
+.th {
+	padding: 25px 0px;
+}
+
