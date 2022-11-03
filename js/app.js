@@ -7,7 +7,9 @@ let span = document.getElementById('rating');
 ratings.forEach(el => {
 	el.addEventListener('click', () => {
 		let ratingsres = el.textContent;
+		ratings.forEach(el => {
 		el.classList.remove('selected');
+		})
 		el.classList.add('selected');
 	
 		btn.addEventListener('click', () => {
@@ -25,7 +27,10 @@ ratings.forEach(el => {
 // 	ratings[i].addEventListener('click', () => {
 // 		let ratingsres = ratings[i].textContent;
 
-// 		ratings[i].classList.remove('selected');
+// 		for (let i = 0; i < ratings.length; i++) {
+// 			ratings[i].classList.remove('selected');
+// 		}
+		
 // 		ratings[i].classList.add('selected');
 
 // 		btn.addEventListener('click', () => {
@@ -34,5 +39,4 @@ ratings.forEach(el => {
 // 			span.textContent = ratingsres;
 // 		})
 // 	})
-
 // }
